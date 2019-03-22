@@ -151,10 +151,6 @@ section.resume-section {
   max-width: 75rem;
 }
 
-section.resume-section .resume-item .resume-date {
-  min-width: none;
-}
-
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 50vh;
