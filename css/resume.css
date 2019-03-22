@@ -18,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Montserrat';
   font-weight: 700;
   text-transform: uppercase;
   color: #343a40;
@@ -30,11 +30,16 @@ h1 {
 }
 
 h2 {
-  font-size: 3.5rem;
+  color: #9400D3;
+  font-size: 3rem;
 }
 
 h3 {
   font-size: 2rem;
+}
+
+h5{
+  color: #9400D3;
 }
 
 p.lead {
@@ -111,11 +116,7 @@ p.lead {
     margin: auto auto 0;
     padding: 0.5rem;
   }
-  #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
-  }
+
   #sideNav .navbar-collapse {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -156,7 +157,7 @@ section.resume-section .resume-item .resume-date {
 
 @media (min-width: 768px) {
   section.resume-section {
-    min-height: 100vh;
+    min-height: 50vh;
   }
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
@@ -186,11 +187,43 @@ a:hover, a:focus, a:active {
   color: #824027;
 }
 
-.nav-link:focus{
-  text-decoration: underline rgba(255,255,255,.5);
+img {
+  display: block;
+  width: 75%;
+  height: auto;
+  margin:auto;
 }
 
-img {
-  max-width: 100%;
+#hackru-carousel {
+  width: 45%;
+  margin: auto;
   height: auto;
+}
+
+#shirt-carousel {
+  width: 45%;
+  margin: auto;
+  height: auto;
+}
+
+.card {
+  background-color: #EEE8AA;
+}
+
+.slick-next:before {
+  color: #9400D3 !important;
+}
+
+.slick-prev:before {
+  color: #9400D3 !important;
+}
+
+.slick-dots li button::before {
+  color: #9400D3 !important;
+}
+
+.btn {
+  background-color: #EEE8AA;
+  color: black;
+  font-family: "Roboto";
 }

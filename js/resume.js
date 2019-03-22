@@ -15,14 +15,27 @@
     }
   });
 
-  // Closes responsive menu when a scroll trigger link is clicked
-  $('.js-scroll-trigger').click(function() {
-    $('.navbar-collapse').collapse('hide');
-  });
-
   // Activate scrollspy to add active class to navbar items on scroll
   $('body').scrollspy({
     target: '#sideNav'
   });
 
+  //Owl Carousel
+	$('.hackru-carousel').slick({
+    dots: true,
+    touchMove: true
+  });
+
+  $('.shirt-carousel').slick({
+    dots: true,
+    touchMove: true
+  });
+
+  $('.music-carousel').slick({
+    dots: true
+  });
 })(jQuery); // End of use strict
+
+function drive() {
+  window.open("https://drive.google.com/drive/folders/1dOsrfo5ygPEOZxh-i-attJyUltQHUgBF?usp=sharing")
+}
