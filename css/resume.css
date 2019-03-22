@@ -159,9 +159,6 @@ section.resume-section .resume-item .resume-date {
   section.resume-section {
     min-height: 50vh;
   }
-  section.resume-section .resume-item .resume-date {
-    min-width: 18rem;
-  }
 }
 
 @media (min-width: 992px) {
