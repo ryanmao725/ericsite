@@ -2,7 +2,7 @@ body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
   color: black;
-  background-color:	#00FF7F;
+  background-color:#00FF00;
 }
 
 @media (min-width: 992px) {
@@ -30,7 +30,7 @@ h1 {
 }
 
 h2 {
-  color: #9400D3;
+  color: 	#8A2BE2;
   font-size: 3rem;
 }
 
@@ -39,7 +39,7 @@ h3 {
 }
 
 h5{
-  color: #9400D3;
+  color: 	#8A2BE2;
 }
 
 p.lead {
@@ -165,7 +165,7 @@ section.resume-section {
 }
 
 .bg-primary {
-  background-color: #9400D3	!important;
+  background-color: 	#8A2BE2	!important;
 }
 
 .text-primary {
@@ -204,15 +204,15 @@ img {
 }
 
 .slick-next:before {
-  color: #9400D3 !important;
+  color: 	#8A2BE2 !important;
 }
 
 .slick-prev:before {
-  color: #9400D3 !important;
+  color: 	#8A2BE2 !important;
 }
 
 .slick-dots li button::before {
-  color: #9400D3 !important;
+  color: 	#8A2BE2 !important;
 }
 
 .btn {
